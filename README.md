@@ -1,4 +1,4 @@
-# Methylation
+# Methylation data analysis
 R script for basic methylation data analysis
 
 I arrange the methylation data analysis into 4 steps:
