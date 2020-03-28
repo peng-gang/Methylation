@@ -8,7 +8,7 @@ I arrange the methylation data analysis into 4 steps:
 The target file is used to import raw data (idat data: ***Grn.idat and ***Red.idat) with R package "minfi".
 The target file is a data frame including the following information:
 Sample_Name, Sample_Well, Sample_Plate, Sample_Group, Pool_ID, Sentrix_ID, Sentrix_Position, and Basename. 
-We can include other phenotype information such as sex, age.
+These information are usually included in sample sheet file from the lab taking the experiment. We can also include other phenotype information such as sex, age.
 
 2. load methylation from raw data
 
