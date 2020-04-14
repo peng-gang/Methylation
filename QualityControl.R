@@ -45,6 +45,8 @@ GR <- preprocessQuantile(
   mergeManifest = TRUE
 )
 
+# remove SNP related CpG sites
+GR <- dropLociWithSnps(GR, snps=c("SBE","CpG"), maf=0)
 
 # remove low quality, multiple hit, chrY probes (all female)
 
